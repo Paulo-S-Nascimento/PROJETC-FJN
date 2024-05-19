@@ -1,0 +1,11 @@
+# Ignore arquivos de log
+*.log
+
+# Ignore a pasta "node_modules"
+node_modules/
+
+# Ignore arquivos de configuração específicos
+config.json
+
+# Ignore todos os arquivos com a extensão .tmp
+*.tmp
