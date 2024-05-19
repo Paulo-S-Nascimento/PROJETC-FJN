@@ -1,3 +1,109 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* ultility  */
+
+.btn-1 { @apply rounded-full bg-blue-950 text-white w-56 py-2 px-5 ; }
+.btn-2 { @apply rounded-full bg-blue-400 text-white w-56 py-2 px-5 ; }
+
+
+ /* Home and Navigation */
+ 
+.header-box {
+  @apply 
+  flex 
+  bg-blue-950 
+  text-white
+  justify-between
+  items-center
+  px-28
+  py-5
+  max-h-32
+  ;
+} 
+
+.ul-header-1 {
+  @apply
+  flex 
+  justify-between
+  items-center
+  gap-10
+  font-bold
+  ;
+}
+
+.div-header-1 {
+  @apply
+  flex
+  absolute
+  top-1
+  right-28
+bg-blue-500 
+  font-bold
+text-black 
+  px-5 
+  py-1 
+  rounded-sm
+  ;
+}
+
+.ul-header-2 {
+  @apply
+  flex 
+  justify-end
+  gap-5
+  ;
+}
+
+/* info pag  */
+
+.div-info-pag {
+  @apply
+  flex
+  bg-white
+  justify-between
+  items-center
+  px-28
+  py-1
+  ;
+}
+
+/* main content  */
+
+.div-content-1 {
+  @apply
+  flex
+  justify-between
+  px-28
+  py-5
+  gap-3
+  ;
+}
+
+.div-content-2 {
+  @apply
+  px-28
+  py-5
+  ;
+}
+
+.div-post {
+  @apply
+  flex
+  justify-between
+  ;
+}
+
+.post-inst {
+  @apply
+  flex
+  items-center
+  w-96
+  text-blue-400
+  mt-10
+  ;
+}
+
