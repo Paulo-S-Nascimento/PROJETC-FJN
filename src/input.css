@@ -13,7 +13,6 @@
 
 
  /* Home and Navigation */
- 
 .header-box {
   @apply 
   flex 
@@ -61,7 +60,6 @@ text-black
 }
 
 /* info pag  */
-
 .div-info-pag {
   @apply
   flex
@@ -76,7 +74,6 @@ text-black
 /* main content  */
 
 /* content 1 */
-
 .div-content-1 {
   @apply
   flex
@@ -88,7 +85,6 @@ text-black
 }
 
 /* content 2 */
-
 .div-content-2 {
   @apply
   px-28
@@ -115,7 +111,6 @@ text-black
 
 
 /* content 3 */
-
 .div-content-3 {
   @apply
   px-28
@@ -141,7 +136,6 @@ text-black
 }
 
 /* content 4 */
-
 .div-content-4 {
   @apply
   px-28
@@ -153,6 +147,7 @@ text-black
   ;
 }
 
+/* content 5 */
 .div-content-5 {
   @apply
   px-28
@@ -178,5 +173,37 @@ text-black
   text-blue-950
   ;
 }
+
+/* content 6 */
+.div-content-6 {
+  @apply
+  px-28
+  py-5
+  justify-between
+  ;
+}
+
+/* content end  */
+.div-content-end {
+  @apply
+  px-28
+  py-5
+  mt-10
+  flex
+  justify-between
+  text-white
+  bg-blue-950 
+  ;
+}
+
+.rights {
+  @apply
+  bg-black
+  text-white
+  text-xs
+  px-28
+  py-3
+}
+
 
 

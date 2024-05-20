@@ -6,7 +6,13 @@ console.log('Tailwind CSS config loaded');
 module.exports = {
   content: ['./src/**/*.{html,js}'], 
   theme: {
-    extend: {},
+    extend: {
+      borderStyle: ['before'],
+      borderWidth: ['before'],
+      width: ['before'],
+      height: ['before'],
+      content: ['before'],
+    },
   },
   plugins: [],
 }
