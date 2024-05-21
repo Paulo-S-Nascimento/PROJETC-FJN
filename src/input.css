@@ -39,9 +39,11 @@
 .div-header-1 {
   @apply
   flex
-  absolute
-  top-1
-  right-28
+  relative
+  bottom-6
+  left-80
+  ml-3
+  w-max
 bg-blue-500 
   font-bold
 text-black 
@@ -54,7 +56,6 @@ text-black
 .ul-header-2 {
   @apply
   flex 
-  justify-end
   gap-5
   ;
 }
@@ -179,7 +180,9 @@ text-black
   @apply
   px-28
   py-5
+  flex
   justify-between
+  mt-10
   ;
 }
 
