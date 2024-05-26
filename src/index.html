@@ -6,32 +6,35 @@
     <link rel="stylesheet" href="/src/styles.css">
     <title> Project-FJN </title>
 </head>
-<body class="bg-gray-300">
+<body class="bg-gray-300 ">
 
 
     <!-- Home and Navigation -->
      <header class="header-box">
 
-        <div class="flex items-center flex-col">
+        <div class="flex items-center flex-col max-sm:mb-5 max-sm:mt-2">
             <img class="w-36" src="/image/FJN-LOGO.png" alt="A LOGO DA FACULDADE FJN"> 
-            <h3> Faculdade de Juazeiro do Norte </h3>   
+            <h3 class="max-sm:hidden"> Faculdade de Juazeiro do Norte </h3>   
         </div>
 
         <nav> 
             <div class="div-header-1">
                 <ul class="ul-header-2">
-                    <li class="flex items-center gap-2 border-r border-dashed border-black pr-4"> 
+                    <li class="flex items-center gap-2 border-r border-dashed border-black pr-4
+                    max-sm:gap-0 max-sm:pr-2"> 
                         <img src="/icon/BOOK.png" class="w-6" alt="Livros">
                         <a href="#"> Biblioteca Virtual </a> </li>
 
-                    <li class="flex items-center gap-2"> 
+                    <li class="flex items-center gap-2 
+                    max-sm:pl-2 max-sm:gap-0"> 
                         <img src="/icon/NOTE.png" class="w-6" alt="Icone com cadeado">
                         <a href="#"> Confira suas notas </a> </li>
                 </ul>
             </div>
 
             <ul class="ul-header-1">
-                <li class="bg-blue-500 font-bold text-black px-5 py-1 rounded-sm"> <a href="#"> HOME </a> </li>
+                <li class="bg-blue-500 font-bold text-black px-5 py-1 rounded-sm 
+                max-sm:bg-transparent max-sm:text-white"> <a href="#"> HOME </a> </li>
                 <li> <a href="#"> GRADUAÇÕES </a> </li>
                 <li> <a href="#"> PÓS-GRADUAÇÕES </a> </li>
                 <li> <a href="#"> INSTITUCIONAL </a> </li>
@@ -72,7 +75,7 @@
         <div class="div-content-2"> 
             <h1 class="text-2xl  text-blue-400 font-bold"> ÚLTIMAS NOTÍCIAS </h1>
             <div class="relative mt-2 h-1 bg-gray-200">
-                <div class="absolute top-0 left-0 h-1 w-72 bg-blue-400"></div>
+                <div class="absolute top-0 left-0 h-1 w-72 max-sm:w-60 bg-blue-400"></div>
             </div>
 
             <div class="div-post"> 
@@ -81,12 +84,13 @@
                     <img class="rounded-full h-28" src="/image/image-2.png" alt="">
                       <div class="px-2">
                          <p> Faculdade se reune com o MEC para abrir o curso de arquiterura </p>
-                         <p class="mt-5 font-bold"> 22.07.2013 </p>
+                         <p class="mt-5 max-sm:mt-2 font-bold"> 22.07.2013 </p>
                      </div>  
                 </div>
 
                 <!-- Vertical Line -->
-                 <div class="w-px min-h-max border shadow-md shadow-gray-400 bg-slate-200 mt-10"></div>
+                 <div class="w-px min-h-max border shadow-md 
+                 shadow-gray-400 bg-slate-200 mt-10 max-sm:hidden"></div>
 
 
                 <div class="post-inst">
@@ -94,7 +98,7 @@
 
                     <div class="px-2">
                         <p> Faculdade se reune com o MEC para abrir o curso de arquiterura </p>
-                        <p class="mt-5 font-bold"> 22.07.2013 </p>
+                        <p class="mt-5 max-sm:mt-2 font-bold"> 22.07.2013 </p>
                      </div>  
             
                 </div>
@@ -106,18 +110,19 @@
                     <img class="rounded-full h-28" src="/image/image-2.png" alt="">
                     <div class="px-2">
                          <p> Faculdade se reune com o MEC para abrir o curso de arquiterura </p>
-                        <p class="mt-5 font-bold"> 22.07.2013 </p>
+                        <p class="mt-5 max-sm:mt-2 font-bold"> 22.07.2013 </p>
                     </div>  
                 </div>
 
                 <!-- Vertical Line -->
-                <div class="w-px min-h-max border shadow-md shadow-gray-400 bg-slate-200 mb-5"></div>
+                <div class="w-px min-h-max border shadow-md
+                 shadow-gray-400 bg-slate-200 mb-5 max-sm:hidden"></div>
 
                  <div class="post-inst">
                     <img class="rounded-full h-28" src="/image/image-2.png" alt="">
                     <div class="px-2">
                          <p> Faculdade se reune com o MEC para abrir o curso de arquiterura </p>
-                        <p class="mt-5 font-bold"> 22.07.2013 </p>
+                        <p class="mt-5 max-sm:mt-2 font-bold"> 22.07.2013 </p>
                      </div>  
                  </div>
             </div>
@@ -232,7 +237,8 @@
                 <h1 class=" mb-10 font-bold text-white text-xl"> Qual dos cursos da Faculdade de Juazeiro do Norte você está procurando informações? </h1>
             </div>
 
-            <div class="bg-white min-w-full flex p-2 gap-2">
+            <div class="bg-white min-w-full flex p-2 gap-2 
+            max-sm:flex-col">
                 <div class="p-2">
                     <h1 class="text-xl"> Cursos de Graduação em: </h1>
                     <ul>
@@ -244,7 +250,8 @@
                     </ul>
                 </div>
 
-            <div class="w-3/4"> 
+            <div class="w-3/4 
+            max-sm:p-2 max-sm:w-full"> 
                 <h1 class="text-2xl text-start mt-5 mb-2 text-blue-400"> Sistemas da Informação </h1>
                 <hr class="border-2 border-blue-400">
 
@@ -266,11 +273,19 @@
      
     <!-- content - 5   -->
         <div class="div-content-5">
-            <div class="flex justify-between items-center"> 
+            <div class="flex justify-between items-center max-sm:flex-col max-sm:items-start"> 
                <h1 class="text-2xl text-blue-400 font-bold"> GALERIA DE FOTOS </h1>
 
-              <div class="flex items-center text-white text-sm bg-blue-400 rounded-md">
-                        <p class="px-5"> Mostrar Fotos de : 
+            <div class="w-full hidden max-sm:block"> 
+               <div class="relative mt-2 h-1 bg-gray-200 ">
+                   <div class="absolute top-0 left-0 h-1 w-72 bg-blue-400"></div>
+                </div>
+            </div>
+               
+
+              <div class="flex items-center text-white text-sm bg-blue-400 rounded-md
+              max-sm:mt-5">
+                        <p class="px-5 max-sm:px-2"> Mostrar Fotos de : 
                          <span class="font-bold"> Enfermagem </span> </p>
 
                   <div class="px-8 py-3 bg-blue-500 rounded-r-md"> 
@@ -280,46 +295,47 @@
               </div>
             </div>
 
-            <div class="relative mt-2 h-1 bg-gray-200">
-                <div class="absolute top-0 left-0 h-1 w-72 bg-blue-400"></div>
+            <div class="relative mt-2 h-1 bg-gray-200 max-sm:hidden">
+                <div class="absolute top-0 left-0 h-1 w-72 bg-blue-400 max-sm:hidden"></div>
             </div>
 
             <div class="div-post-image"> 
 
                 <div class="post-image">
                     <p class="mt-5 font-bold"> 06.08.2013 </p>
-                    <img class="rounded-full h-28" src="/image/image-2.png" alt="">
+                    <img class="rounded-full h-28 max-sm:h-20" src="/image/image-2.png" alt="">
                     <p class="text-xs">IV Semana da Enfermagem</p>
                 </div>  
 
                 <div class="post-image">
                     <p class="mt-5 font-bold"> 06.08.2013 </p>
-                    <img class="rounded-full h-28" src="/image/image-2.png" alt="">
+                    <img class="rounded-full h-28 max-sm:h-20" src="/image/image-2.png" alt="">
                     <p class="text-xs">IV Semana da Enfermagem</p>
                 </div>  
 
                 <div class="post-image">
                     <p class="mt-5 font-bold"> 06.08.2013 </p>
-                    <img class="rounded-full h-28" src="/image/image-2.png" alt="">
+                    <img class="rounded-full h-28 max-sm:h-20" src="/image/image-2.png" alt="">
                     <p class="text-xs">IV Semana da Enfermagem</p>
                 </div>  
 
                 <div class="post-image">
                     <p class="mt-5 font-bold"> 06.08.2013 </p>
-                    <img class="rounded-full h-28" src="/image/image-2.png" alt="">
+                    <img class="rounded-full h-28 max-sm:h-20" src="/image/image-2.png" alt="">
                     <p class="text-xs">IV Semana da Enfermagem</p>
                 </div>  
 
                 <div class="post-image">
                     <p class="mt-5 font-bold"> 06.08.2013 </p>
-                    <img class="rounded-full h-28" src="/image/image-2.png" alt="">
+                    <img class="rounded-full h-28 max-sm:h-20" src="/image/image-2.png" alt="">
                     <p class="text-xs">IV Semana da Enfermagem</p>
                 </div>  
              </div>
         </div>
 
     <!-- separate -->
-        <div class="px-28 mt-10">
+        <div class="px-28 mt-10   
+        max-sm:px-5  max-sm:py-0">
             <div class="relative w-10/9 h-1  before:absolute before:top-0 before:left-0 before:w-full before:h-full before:border-t before:border-dotted before:border-gray-500"></div>
             <div class="relative w-10/9 h-1  before:absolute before:top-0 before:left-0 before:w-full before:h-full before:border-t before:border-dotted before:border-gray-500"></div>
             <div class="relative w-10/9 h-1  before:absolute before:top-0 before:left-0 before:w-full before:h-full before:border-t before:border-dotted before:border-gray-500"></div>
@@ -328,16 +344,18 @@
     <!-- content - 6 -->
         <div class="div-content-6">
 
-            <div class="w-96 h-60 bg-blue-400 flex flex-col justify-center items-center text-white">
+            <div class="w-96 h-60 bg-blue-400 flex flex-col justify-center items-center text-white
+            max-sm:w-80 max-sm:text-center">
                 <img src="/icon/t.png" class="w-20 rounded-full" alt="">
                 <p class="font-bold text-3xl"> @fjnedu</p>
                 <P>"Já está disponivel a lista para o PROUNI 2024.2" </P>
                 <div>       
-                </div>
+              </div>
             </div>
 
 
-        <div class="w-96">    
+        <div class="w-96 
+        max-sm:w-80">    
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v19.0" nonce="9RvNGBR4"></script>
             <div class="fb-page" data-href="https://www.facebook.com/UNINASSAU/?locale=pt_BR" data-tabs="timeline" data-width="384" data-height="240" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/UNINASSAU/?locale=pt_BR" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/UNINASSAU/?locale=pt_BR">UNINASSAU</a></blockquote></div>
@@ -351,7 +369,7 @@
         <!-- courses -->
         <div>
             <h4 class="font-bold text-lg my-3"> Graduações </h4>
-            <ul>
+            <ul class="max-sm:text-xs">
                 <li class="mb-1"> Sistemas da informação </li>
                 <li class="mb-1"> Ciências Contábeis </li>
                 <li class="mb-1"> Nutrição </li>
@@ -361,7 +379,7 @@
         </div>
 
         <!-- manual  -->   
-        <div>
+        <div class="max-sm:hidden">
             <h4 class="font-bold text-lg my-3"> Manuais </h4>
             <ul>
                 <li class="mb-1"> Manual TOTVS </li>
@@ -371,7 +389,7 @@
         </div>
 
         <!-- Sites and blogs -->
-        <div>
+        <div class="max-sm:hidden">
             <h4 class="font-bold text-lg my-3"> Sites e Blogs </h4>
             <ul>
                 <li class="mb-1"> Blog: A Cor do Riso </li>
@@ -385,7 +403,7 @@
         <!-- contact  -->
         <div>
             <h4 class="font-bold text-lg my-3"> Contatos </h4>
-            <ul>
+            <ul class="max-sm:text-xs">
                 <li class="mb-1"> Rua São Francisco, 1224 </li>
                 <li class="mb-1"> Bairro: São Miguel </li>
                 <li class="mb-1"> Juazeiro do Norte - Ceará </li>
